@@ -6,7 +6,7 @@ typedef struct PerfilProduto
 {
 	char nomeProduto[100];
 	char marca[50];
-	float quantidade;
+	char quantidade[25];
 	float preco1, preco2, preco3;
 };
 
@@ -20,14 +20,14 @@ void inicializacao()
 
 void cadastroProdutos()
 {
-	printf("\nDigite o nome do produtro: ");
+	printf("\nDigite o nome do produto: ");
 	scanf("%s", produtos[produtosCadastrados].nomeProduto);
 
 	printf("\nDigite a marca do produto: ");
 	scanf("%s", produtos[produtosCadastrados].marca);
 
 	printf("\nInsira a quantidade (gramas, ml, etc): ");
-	scanf("%f", &produtos[produtosCadastrados].quantidade);
+	scanf("%s", produtos[produtosCadastrados].quantidade);
 
 	printf("\nInsira o preco do primeiro produto: ");
 	scanf("%f", &produtos[produtosCadastrados].preco1);
