@@ -8,7 +8,7 @@ Seu programa deverá armazenar, para um produto, os seguintes dados:
 - Preço no estabelecimento 1;
 - Preço no estabelecimento 2;
 - Preço no estabelecimento 3;
-- 
+
 Por exemplo, considere como produto Arroz Branco, Tio Urbano, 5 Kg, cujo preço está R$ 22,75 na Central de Alimentos, R$ 26,80 no Viver Bem Saudável, e R$ 16,99 no Semar Supermercados (dados de cunho ilustrativo, preços pesquisados na Internet em outubro/2022).
 
 Depois que você pesquisar diversos produtos, seu programa deve indicar quais produtos estão mais baratos em qual estabelecimento, fornecendo 3 listas (vetores), cada uma contendo os produtos mais baratos apenas naquele estabelecimento.
